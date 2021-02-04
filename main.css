@@ -1,0 +1,49 @@
+a {
+	text-decoration: none;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+	margin-left: 70px;
+	width: 50%;
+	height: 60%;
+	border: 2px solid black;
+}
+
+.wrapper > div {
+	padding: 50px;
+}
+
+.user_info * {
+	margin: 0;
+}
+
+.user_info > h2 {
+	font-family: 'Audiowide', cursive;
+	font-size: 40px;
+}
+
+.user_info > p {
+	margin-top: 7px;
+	font-size: 30px;
+}
+
+.user_photo {
+	height: 198px;
+}
+
+.references {
+	margin-top: 30px;
+    font-size: 27px;
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+    align-items: center;
+}
+
+.fa-twitter {
+    color: #55acee;
+    font-size: 21px;
+}
